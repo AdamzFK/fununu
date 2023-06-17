@@ -1,0 +1,159 @@
+body{
+   margin: 0;
+   background-color: #eee;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    overflow: hidden;
+}
+
+#Navbar{
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+}
+
+#Navbar ul{
+    list-style: none;
+    text-align: right;
+} 
+
+#Navbar li{
+    display: inline;
+    padding-right: 12px;
+}
+
+#Navbar a{
+    text-decoration: none;
+    color: teal;
+  }
+
+#Navbar a:hover{
+    color:white;
+    font-size: 18px;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 16px 0px 16px 0px;
+}
+
+#Navbar li:active{
+    color: tomato;
+}
+
+
+#main-header{
+    margin: 0;
+    background-color: teal;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    padding: 15px;
+    text-transform: capitalize;
+    text-align: left;
+    border-bottom: 4px solid tomato;
+}
+
+span{
+    color:tomato;
+}
+
+.banner{
+    background-image: url("../img/fununu.jpg");
+    background-position: center right;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.banner h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6em;
+    padding-top: 70px ;
+}
+
+#big{
+    width:70%;
+    float: left;
+}
+
+#big p{
+    line-height: 1.7em;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    background-color:azure;
+    color: teal;
+    margin: 10px;
+}
+
+#sidebar{
+    width:30%;
+    float: right;
+}
+
+#sidebar p{
+    line-height: 1.7em;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 25px;
+    background-color:#fff;
+    color: tomato;
+}
+
+#main-footer{
+    margin:auto;
+    background-color: white;
+    color:teal;
+    padding: 10px;
+    border-top: 4px solid tomato;
+}
+
+#main-footer h4{
+    margin:auto;
+   font-size: 22px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+   text-align: center;
+}
+
+#coming{
+   position: relative;
+   margin-top:20%;
+   padding: 70px;
+   background-color: teal;
+   border-radius: 16px 0px 16px 0px;
+   box-shadow: 20px 10px 15px 30px rgba(0, 0, 0, 0.8);
+}
+
+#coming{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+
+@media (max-width:800px) {
+    #big{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width:100%;
+        float: none;
+    }
+}
